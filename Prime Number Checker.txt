@@ -1,0 +1,24 @@
+Pseudocode:
+
+START
+
+Input N
+
+Set isPrime = true
+
+For i = 2 to sqrt(N)
+
+    If N MOD i == 0
+        Set isPrime = false
+        Break
+    End If
+
+End For
+
+If isPrime == true
+    Print "Prime"
+Else
+    Print "Not Prime"
+End If
+
+STOP

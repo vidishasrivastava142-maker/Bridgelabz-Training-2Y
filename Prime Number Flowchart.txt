@@ -1,0 +1,38 @@
+START
+   |
+Input N
+   |
+Set isPrime = true
+   |
+Set i = 2
+   |
+Is i * i <= N?
+   |
+  YES
+   |
+Is N MOD i == 0?
+   |
+  YES → Set isPrime = false
+   |             |
+   |             v
+   |            STOP
+   |
+  NO
+   |
+i = i + 1
+   |
+   └────────→ Is i * i <= N?
+
+If NO
+   |
+Is isPrime true?
+   |
+ YES → Print "Prime"
+   |
+   v
+  STOP
+
+ NO → Print "Not Prime"
+   |
+   v
+  STOP

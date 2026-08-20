@@ -1,0 +1,21 @@
+Pseudocode
+
+START
+
+Input N
+
+Set reversed = 0
+
+While N > 0
+
+    digit = N MOD 10
+
+    reversed = reversed * 10 + digit
+
+    N = N / 10
+
+End While
+
+Print reversed
+
+STOP

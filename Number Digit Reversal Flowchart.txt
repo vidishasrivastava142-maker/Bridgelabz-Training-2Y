@@ -1,0 +1,23 @@
+START
+   |
+Input N
+   |
+Set reversed = 0
+   |
+Is N > 0?
+   |
+  YES
+   |
+digit = N MOD 10
+   |
+reversed = reversed * 10 + digit
+   |
+N = N / 10
+   |
+   └────────→ Is N > 0?
+
+If NO
+   |
+Print reversed
+   |
+STOP
